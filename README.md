@@ -90,7 +90,7 @@ You can check out the GitHub Explore website [at github.com/explore](https://git
 
 ## 📝 Required Next Stpes
 * Clone this repo onto your local desktop using `git clone`.
-* Create a new file, `test.py` and type a basic Python function (i.e. `print('Hello World')`
+* Create a new file, `test.py` and type a basic Python script or function (i.e. `print('Hello World')`
 * Create a new branch called test. Refer to the [Branch & Merge Section](https://education.github.com/git-cheat-sheet-education.pdf) for how to create a new branch.
 * Add your changes to the branch, commit with any status message, and push your changes.   
 
