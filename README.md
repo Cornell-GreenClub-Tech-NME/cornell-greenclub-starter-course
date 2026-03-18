@@ -89,19 +89,64 @@ GitHub Explore is a great place to do just that … explore :smile: You can find
 You can check out the GitHub Explore website [at github.com/explore](https://github.com/explore). The more you interact with GitHub the more tailored your Explore view will be. 
 
 ## 📝 Required Next Stpes
-* Clone this repo onto your local desktop using `git clone`.
-* Create a new file, `test.py` and type a basic Python script or function (i.e. `print('Hello World')`
-* Create a new branch called test. Refer to the [Branch & Merge Section](https://education.github.com/git-cheat-sheet-education.pdf) for how to create a new branch.
-* Add your changes to the branch, commit with any status message, and push your changes.   
+### 1. Clone the repository
+Open your terminal (or Command Prompt) and run:
+```
+git clone <repository-url>
+```
+
+### 2. Navigate into the project folder
+```
+cd <repository-name>
+```
+
+### 3. Create a new branch called test. 
+```
+git checkout -b test
+```
+
+### 4. Organize existing files
+- Create a new folder called `archive`
+- Move the current `README.md` file into the `archive` folder
+
+### 5. Create your profile README
+- In the main directory, create a new file called `README.md`
+- Use this file to introduce yourself to other GreenClub members! You might include:
+  - What you’re interested in learning
+  - What you’re currently working on
+  - Your favorite hobby
+
+Need inspiration? Check out these templates:  
+https://github.com/abhisheknaiidu/awesome-github-profile-readme
+
+### 6. Stage and commit your changes
+```
+git add .
+git commit -m "Add profile README and archive old README"
+```
+
+### 7. Push your branch to GitHub
+```
+git push origin test
+```
+
+### 8. Open and merge a Pull Request
+- Go to your repository on GitHub
+- Open a Pull Request from the `test` branch into the `main` branch
+- Merge your Pull Request
+
+---
+
+If you get stuck at any point, don’t hesitate to ask for help or look up the command online!
 
 ## 📝 Optional next steps 
 
 * Open a pull request and let your instructor know that you’ve finished this course.  
 * Create a new markdown file in this repository. Let them know what you learned and what you are still confused about! Experiment with different styles!
-* Create your profile README. Let the world know a little bit more about you! What are you interested in learning? What are you working on? What's your favorite hobby? Learn more about creating your profile README in the document, ["Managing Your Profile README"](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme).
+* Use this README template to update your profile README. Learn more about creating your profile README in the document, ["Managing Your Profile README"](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme).
 * Go to your user dashboard and create a new repository. Experiment with the features within that repository to familiarize yourself with them. 
 * [Let us know what you liked or didn’t like about the content of this course](https://support.github.com/contact/education). What would you like to see more of? What would be interesting or helpful to your learning journey?
-* Explore other GitHub commands in this GitHub Cheat Sheet. 
+* Explore other GitHub commands in this [GitHub Cheat Sheet]((https://education.github.com/git-cheat-sheet-education.pdf). 
 
 ## 📚  Resources 
 * [A short video explaining what GitHub is](https://www.youtube.com/watch?v=w3jLJU7DT5E&feature=youtu.be) 
